@@ -6,7 +6,7 @@ class Area
 public:
 
 	//constructors 
-	Area(std::string newAreaName,std::string newAreaDescription,std::string newConnectedArea);
+	Area(std::string newAreaName,std::string newAreaDescription);
 	
 
 

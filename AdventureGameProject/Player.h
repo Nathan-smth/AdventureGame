@@ -5,13 +5,13 @@ class Player
 {
 public:
 	//constructors 
-	Player(int newHealth,int newAttackValue,std::string newCurrentAreaName);
+	Player(std::string newName, std::string newDescription);
 
 	//deconsttrutors
 	~Player();
 
 	//functions
-	void Go();
+	void Look();
 	void Help();
 
 
@@ -19,5 +19,8 @@ public:
 	int health;
 	int attackValue;
 	std::string CurrentAreaName;
+	std::string name;
+	std::string description;
+	int maxHealth;
 	
 };
